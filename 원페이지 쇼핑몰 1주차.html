@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>원데이 쇼핑몰</title>
+    <style>
+        .큰글씨 {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .이미지크기 {
+            width: 500px;
+            height: 900px;
+            margin: 80px auto;
+            font-family: 'Nanum Myeongjo', serif;
+
+        }
+
+        .가운데 {
+            display: block;
+            width: 200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+    </style>
+    <script>
+        function sayHello(){
+            alert('주문이 완료되었습니다.');
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="이미지크기">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100"
+                     src="https://thumbnail.10x10.co.kr/webimage/image/basic600/214/B002142514.jpg?cmd=thumb&w=500&h=500&fit=true&ws=falsehttp://thumbnail.10x10.co.kr/webimage/image/basic600/214/B002142514.jpg?cmd=thumb&w=500&h=500&fit=true&ws=false"
+                     alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100"
+                     src="http://thumbnail.10x10.co.kr/webimage/image/add1_600/214/A002142514_01.jpg?cmd=thumb&w=500&h=500&fit=true&ws=false">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100"
+                     src="http://thumbnail.10x10.co.kr/webimage/image/add2_600/214/A002142514_02.jpg?cmd=thumb&w=500&h=500&fit=true&ws=false"
+                     alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    </p>
+    <div>
+        <p>
+            <span class="큰글씨">텀블러</span>
+            &nbsp&nbsp&nbsp&nbsp&nbsp가격: 5조원/개
+        </p>
+
+        <p>
+            이 텀블러는~~
+        </p>
+        <p class="큰글씨">
+            주문하기
+        </p>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">주문자 성함</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">수량</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect01">
+                <option selected>수량을 선택하세요</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">주소</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">전화번호</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="가운데">
+            <button type="button" botton onclick="sayHello()" style="width:200px" class="btn btn-success">주문하기</button>
+
+        </div>
+</body>
+</html>
